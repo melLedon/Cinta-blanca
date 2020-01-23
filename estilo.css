@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+}
+
+h1{ 
+    text-align: center;
+    color: white;
+}
+
+img{
+    width: 500px; height: 400px;
+}
+
+#foto{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#span{
+    text-align: center;
+}
