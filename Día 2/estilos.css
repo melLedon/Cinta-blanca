@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+#titulos{
+    text-align: center;
+    font-size: 30px;
+    color: teal;
+    border: violet solid;
+    padding: 10px;
+}
+.parrafo{
+    text-align: justify;
+    color: white;
+}

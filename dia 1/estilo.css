@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+ 
+h1{
+    padding: 4px;
+    margin: auto;
+}
+
+#titulo{ 
+    color: white;
+    margin: auto;
+    width: fit-content;
+    border: solid white;
+}
+
+img{
+    width: 500px; height: 450px;
+    border: teal solid;
+}
+
+
+p{
+    text-align: center;
+    color: teal;
+}
+.centrar{
+    text-align: center;
+    color: teal;
+}
