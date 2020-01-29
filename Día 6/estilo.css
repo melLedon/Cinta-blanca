@@ -1,0 +1,103 @@
+body{
+    background-color: teal;
+}
+
+.navbar_background{
+    background-color:black;
+}
+
+#navbar_logo{
+    height: 50px;
+}
+
+.fondoDropdown{
+    background-color: black;
+}
+
+.icono{
+    color: white;
+}
+
+.cont_carrusel{
+    margin-top: 30px;
+}
+
+.tamaño{
+    height: 550px;
+}
+
+@media (max-width: 992px){
+    .tamaño{
+        height: 350px;
+    }
+}
+
+.cartas{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.formato_card{
+    text-align: center;
+}
+
+.botones{
+    width: 40%;
+    height: 40px;
+    border-radius: 28px;
+}
+
+.logos{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.contenedor_footer{
+    background-color: black;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+@media (max-width: 992px){
+    .contenedor_footer{
+        height: 480px;
+        text-align: center;
+    }
+}
+
+.parrafo{
+    display: flex;
+   flex-direction: column;
+}
+.redes-soc{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+ 
+.logo_footer{
+    display: flex;
+    justify-content: center;
+}
+.imagen_footer{
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 992px){
+    .imagen_footer{
+        justify-content: center;
+        margin: 15px;
+    }
+}
+
+.columna{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
