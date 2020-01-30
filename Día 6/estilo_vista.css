@@ -19,33 +19,22 @@ body{
     color: white;
 }
 
-.cont_carrusel{
-    margin-top: 30px;
+.menu{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-.tamaño{
+.fotomenu{
     height: 550px;
 }
 
-@media (max-width: 992px){
-    .tamaño{
-        height: 350px;
-    }
-}
 
-.cartas{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.formato_card{
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-}
 
-.botones{
-    width: 40%;
-    height: 40px;
-    border-radius: 28px;
+.imagenes_cartas{
+    padding: 10px;
+    height: 280px;
+    width: 350px;
 }
 
 .logos{
