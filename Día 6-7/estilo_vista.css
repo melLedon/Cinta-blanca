@@ -29,12 +29,48 @@ body{
     height: 550px;
 }
 
+@media (max-width: 576px){
+    .fotomenu{
+        height: 220px;
+    }
+}
 
+.carta{
+    min-height: 500px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 576px){
+    .carta{
+        min-height: 200px;
+    }
+}
 
 .imagenes_cartas{
     padding: 10px;
-    height: 280px;
-    width: 350px;
+    height: 260px;
+}
+ 
+@media (max-width: 768px) and (min-width: 576px){
+    .col-12{
+        display: flex;
+        justify-content: center;
+    }
+    .carta{
+        width: 60%;
+    }
+    .imagenes_cartas{
+        height: 550px;   
+    }
+    p{
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 576px){
+    .imagenes_cartas{
+        height: 180px;
+    }
 }
 
 .logos{
@@ -88,8 +124,28 @@ body{
 }
 }
 
+@media (max-width: 576px){
+    .imagen_footer{
+        justify-content: center;
+        margin: 15px;
+       height: 100px;
+}
+}
+
 .columna{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+@media (max-width: 1025px){
+    .imagenes_cartas{
+        height: 200px;
+    }
+    .carta{
+        min-height: 580px;
+    }
+    p{
+        font-size: x-large;
+    }
 }
