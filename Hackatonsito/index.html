@@ -8,19 +8,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/d06f7f2362.js" crossorigin="anonymous"></script>
     <title>Hackatonsito</title>
 </head>
 
 <body>
     <!--navbar-->
-    <div class="cotainer-fluid">
-        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-            <a class="navbar-brand">La ahorracion</a>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </nav>
+    <div class="cotainer-fluid nav_cont">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(50, 179, 11)">
+                <a class="navbar-brand"><i class="fas fa-leaf"></i> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <form action="form-inline my-2 my-lg-0">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">¿Quienes somos?</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Cómo ahorrar en
+                                    casa?</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Electrodomesticos inverter</a>
+                                    <a class="dropdown-item" href="#">Reciclaje</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Focos ahorradores</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </nav>
+        </div>
     </div>
     <!--fin navbar-->
 
@@ -28,17 +57,22 @@
     <div class="container hero_cont">
         <div class="row">
             <div class="col-12">
-                <h1>¿Comó ahorrar en tu casa?</h1>
+                <h1>¿Cómo ahorrar en tu casa?</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
                 <div class="hero_conjunto">
-                   <a href="#cont_ac"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 50.png" alt="aire acondicionado"></a>
-                   <a href="#cont_secadora"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 60.png" alt="secadora"></a>
-                  <a href="#cont_foco">  <img class="hero_img" src="./1x/iconos/Mesa de trabajo 70.png" alt="focos"> </a>  
-                <a href="#cont_refrigerador"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 80.png" alt="refrigerador"></a>
-                   <a href="#cont_basura"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 90.png" alt="Reciclar"></a>
+                    <a href="#cont_ac"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 50.png"
+                            alt="aire acondicionado"></a>
+                    <a href="#cont_foco"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 60.png"
+                            alt="secadora"></a>
+                    <a href="#cont_secadora"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 70.png"
+                            alt="focos"> </a>
+                    <a href="#cont_refrigerador"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 80.png"
+                            alt="refrigerador"></a>
+                    <a href="#cont_basura"> <img class="hero_img" src="./1x/iconos/Mesa de trabajo 90.png"
+                            alt="Reciclar"></a>
                 </div>
             </div>
         </div>
@@ -47,12 +81,12 @@
 
     <div class="container info_cont" id="cont_ac">
         <div class="row">
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 d-flex justify-content-center">
                 <img class="info_img" src="./1x/imagenes/AC.jpg" alt="a/c">
             </div>
             <div class="col-lg-6 d-flex align-items-center">
                 <div class="info">
-                    <h4>Aire Acondicionado</h4>
+                    <h3>Aire Acondicionado</h3>
                     <p>Según datos del Instituto para la Diversificación y Ahorro de la Energía (IDAE), el 49% de los
                         hogares mexicanos dispone de algún tipo de sistema de aire acondicionado. </p>
                 </div>
@@ -64,28 +98,28 @@
         <div class="row">
             <div class="col-lg-6 d-flex align-items-center">
                 <div class="info">
-                    <h4>Foco</h4>
+                    <h3>Foco</h3>
                     <p>Las lámparas “eficientes” utilizan menos energía debido principalmente a que producen menos calor
                         que las incandescentes y en teoría su duración es mayor. </p>
                 </div>
             </div>
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 d-flex justify-content-center">
                 <img class="info_img" src="./1x/imagenes/foco.jpg" alt="a/c">
             </div>
-
         </div>
     </div>
 
 
     <div class="container info_cont" id="cont_secadora">
         <div class="row">
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 d-flex justify-content-center">
                 <img class="info_img" src="./1x/imagenes/secadora.jpg" alt="a/c">
             </div>
             <div class="col-lg-6 d-flex align-items-center">
                 <div class="info">
-                    <h4>Secadora</h4>
-                    <p>El aire de ventilación de las secadoras que usan detergentes líquidos contienen químicos peligrosos incluyendo dos que han sido calificados como cancerígenos. </p>
+                    <h3>Secadora</h3>
+                    <p>El aire de ventilación de las secadoras que usan detergentes líquidos contienen químicos
+                        peligrosos incluyendo dos que han sido calificados como cancerígenos. </p>
                 </div>
             </div>
         </div>
@@ -96,11 +130,13 @@
         <div class="row">
             <div class="col-lg-6 d-flex align-items-center">
                 <div class="info">
-                    <h4>Refrigerador</h4>
-                    <p>Los refrigeradores suponen la mayor amenaza para el calentamiento, representan el 30% de sus emisiones de gases invernadero, según un estudio de la Agencia de Investigación Medioambiental. </p>
+                    <h3>Refrigerador</h3>
+                    <p>Los refrigeradores suponen la mayor amenaza para el calentamiento, representan el 30% de sus
+                        emisiones de gases invernadero, según un estudio de la Agencia de Investigación Medioambiental.
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 d-flex justify-content-center">
                 <img class="info_img" src="./1x/imagenes/refrigerador.jpg" alt="a/c">
             </div>
 
@@ -109,13 +145,14 @@
 
     <div class="container info_cont" id="cont_basura">
         <div class="row">
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 d-flex justify-content-center">
                 <img class="info_img" src="./1x/imagenes/basura.jpg" alt="a/c">
             </div>
             <div class="col-lg-6 d-flex align-items-center">
                 <div class="info">
-                    <h4>Basura</h4>
-                    <p>La contaminación por basura es aquella que implica daños al suelo, aire y agua por la acumulación de residuos no deseados. </p>
+                    <h3>Basura</h3>
+                    <p>La contaminación por basura es aquella que implica daños al suelo, aire y agua por la acumulación
+                        de residuos no deseados. </p>
                 </div>
             </div>
         </div>
